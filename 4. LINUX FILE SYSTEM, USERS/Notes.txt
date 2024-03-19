@@ -1,0 +1,51 @@
+- ifconfig (to get the ip address of kali)
+
+
+---- TO change user ---- 
+- sudo su       
+- ls		
+- cd/home/kali/Desktop
+- cd ..	[Works like backspace]
+
+
+
+=== /etc/ directory is the most important directory in kali linux 
+(make your location is /etc)
+
+- cat passwd ---> user account informaitions
+- cat shadow --- > encrypt password informations 
+
+
+------ TO add new user ------ 
+- adduser alvi      (as root user)
+- sudo useradd alvi (if not as root user)
+
+
+---- TO cheack wheather the new users is added
+- cat /etc/passwd (as root user)
+- sudo cat /etc/passwd (if not as root user)
+
+
+----  Another way to watch all users all users ---- 
+- cd/home
+- ls
+
+
+
+---- To switch user ---- 
+- su alvi
+- su kali
+
+
+
+====== To watch all users ===== 
+cut -d: -f1 /etc/passwd
+
+
+
+====== To deleter user ===== 
+userdel -r username
+
+
+
+
