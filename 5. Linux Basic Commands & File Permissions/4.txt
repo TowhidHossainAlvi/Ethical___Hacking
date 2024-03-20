@@ -1,0 +1,51 @@
+shift + ctrl + c ---- > copy
+
+cd /home/kali/Downloads
+mkdir cmbd
+ls
+
+rm -r cmbd	---> To remove folder
+ls
+
+rm filename	---> To remove file
+
+echo > minhaz.txt	--->To create file
+
+echo "I learned that from Minhaaz Asif" > minhaz.txt	---> To write inside the file
+
+echo "2. I learned that from Minhaz Asif" > minhaz2.txt		--->To write inside the also create the file if not exist
+
+
+cat minhaz.txt		---> To watch what is written inside the file
+cat minhaz2.txt		---> To watch what is written inside the file
+
+cp minhaz.txt /home/kali/Desktop 	---> To copy file
+
+cp /home/kali/Downloads/minhaz2.txt /home/kali/Desktop	  ---> Direct copy from one location to another location without changing location
+
+mkdir sanin
+mv /home/kali/Desktop/minhaz2.txt /home/kali/Desktop/sanin	---> To cut or move one location to another location
+
+
+============= permession cheack ===================
+ls -al
+
+serial		---> user -> group -> others   || u -> g -> 0
+
+chmod 777 237.txt
+ls -al
+
+chmod u-x 237.txt 
+ls -al
+
+chmod g-w,o-w 237.txt
+ls -al
+
+chmod go=r 237.txt
+ls -al
+
+chmod a=rwx 237.txt
+ls -al
+
+
+

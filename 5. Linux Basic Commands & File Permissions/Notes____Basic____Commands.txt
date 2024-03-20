@@ -1,0 +1,27 @@
+
+- mkdir alvi  ---> To create directory/folder
+
+- rm -r cmbd	---> To remove/delete directory/folder
+
+- rm filename	---> To remove file
+
+- echo > towhid.txt ---> To create file
+
+- echo "I am Towhid Hossain Alvi" > towhid.txt ---> To write inside the file
+
+- echo "I create websites" > tesLa.txt  --->To write inside the also create the file if not exist
+
+- cat towhid.txt
+
+- cp towhid.txt /home/kali/Desktop ---> To copy file
+
+- cp /home/kali/Desktop/towhid.txt /home/kali/Downloads ---> Direct copy from one location to another location without changing location
+
+- mv /home/kali/Desktop/towhid.txt /home/kali/Downloads ---> To move/cut one 
+
+
+
+
+
+
+

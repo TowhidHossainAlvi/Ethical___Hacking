@@ -1,0 +1,31 @@
+========== permession cheack ================
+
+first create a file 
+- echo "Hello" > alvi.txt
+
+- ls -al (you will find all the permissions here)
+
+------------------------
+
+serial   ---> user -> group -> others   || u -> g -> 0
+
+4    ----> read (r)
+2    ----> write/edit (w)
+1    ----> execute (x)
+
+------------------------
+
+- chmod 777 alvi.txt
+- ls -al
+
+- chmod u-x alvi.txt  (677)
+- ls -al
+
+- chmod g-w,o-w alvi.txt (655)
+- ls -al
+
+- chmod go=r alvi.txt  (644)
+- ls -al
+
+- chmod a=rwx alvi (777)
+- ls -al
