@@ -1,0 +1,32 @@
+---- Go to root desktop
+- mousepad alvi.txt 	--> you may find some error
+- ls
+- nano alvi.txt
+- ctrl + x 
+- cat alvi.txt
+
+
+Download sublimetext
+Go to terminal
+- cd /home/kali/Downloads
+- ls 
+- chmod +x sublime-text_build-3211_amd64.deb 
+- dpkg -i sublime-text_build-3211_amd64.deb
+- subl alvi.py
+
+- python --version
+- apt install python3-pip
+
+write something in python file
+- python3 alvi.py
+- chmod + x alvi.py  ---> If their is no permission
+
+
+========= Inside python file ===========
+import sys
+print(sys.version)
+
+Go to terminal  ----> python3 alvi.py
+
+
+		
