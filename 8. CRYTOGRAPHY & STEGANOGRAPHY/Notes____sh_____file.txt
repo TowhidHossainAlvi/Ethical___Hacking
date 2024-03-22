@@ -32,6 +32,7 @@ echo "His name is, $name and he is $age"
 
 === Example 3 for .sh file ===== 
 
+read -p "Enter a number: " num
 if [ $num -gt 20 ]; then
     echo "Greater than 20"
 elif [ $num -eq 20 ]; then
