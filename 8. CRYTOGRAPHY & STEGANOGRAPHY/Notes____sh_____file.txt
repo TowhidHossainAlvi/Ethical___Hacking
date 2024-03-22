@@ -1,0 +1,69 @@
+- nano first.sh      ----> create .sh file
+
+
+write the text below inside .sh file
+---
+name="Towhid Hossain Alvi"
+echo "He is Web developer & designer and cyber security expart ,$name"
+---
+
+===== Now go to terminal ==========
+
+- bash alvi.sh 	----> You will find the output
+
+- ./first.sh  --- > permission denied
+
+- chmod +x first.sh  ---> giving permission
+
+- ./first.sh  ----> You will find the output
+
+
+=== Example -2 for .sh file =====
+
+echo -n "Enter your name : "
+read name
+echo -n "Enter your age: "
+read age
+echo "His name is, $name and he is $age"
+
+
+- ./first.sh  ---> Go terminal to get the output
+
+
+=== Example 3 for .sh file ===== 
+
+if [ $num -gt 20 ]; then
+    echo "Greater than 20"
+elif [ $num -eq 20 ]; then
+    echo "Equal to 20"
+else
+    echo "Less than 20"
+fi
+
+- ./first.sh  ---> Go terminal to get the output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
