@@ -1,0 +1,24 @@
+- host (website domain)   ---> ip address
+
+============= nmap =============
+
+- man nmap
+- nmap (website ip address) ---> To find Port
+
+- nmap -p(PortNumber) (website ip address)  
+
+- nmap -p(PortNumber) -sV (website ip address)      ----> service version
+
+- nmap -p(PortNumber) -sC (website ip address)     ----> default script
+
+- nmap -p(PortNumber) -O (website ip address)       ----> OS version
+
+- nmap -p(PortNumber) -A (website ip address)       ----> Aggressive scan (Not recommended)
+
+
+- nmap --script vuln (website ip address)          ---> This will take a lot time 	
+
+- nmap -T4 --script vuln (website ip address)          ---> This will take a lot time 
+
+
+- nmap -T5 -p(PortNumber) -A (website ip address)   ---> To save time

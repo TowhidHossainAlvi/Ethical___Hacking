@@ -1,0 +1,23 @@
+
+----- use the extension wappalyzer
+
+
+at the of the link use these
+-- /robots.txt
+-- /sitemap_index.xml
+
+- wafw00f --list   --->   it is not`woof` it is `w00f`
+
+- wafw00f (website domain)
+
+- whois (website domain)  ---> lookup for a website domain
+
+
+- apt install subfinder  ---> To install subfinder
+
+- subfinder -d (website domain)  --> To find subdomain
+
+- dnsrecon -d (website domain)   ---> To perform DNS enumeration
+
+
+- whatweb (website domain)   ---- > Give many imporat data
