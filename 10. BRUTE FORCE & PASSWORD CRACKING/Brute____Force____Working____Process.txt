@@ -1,0 +1,15 @@
+
+Burp Suite > Proxy > Intercept is on (click) >
+
+Now go browser and Fill the login informations and check burp suite >
+
+Right click (send to intruder) Or ctrl + i > 
+
+select attack type > chooose the info(what you are going to attack) > Add > Payloads > give your information lists > Start attack
+
+click on length to you will get the Password (lowest length)
+
+
+====== Passwords =======
+generate Possible Passwords
+

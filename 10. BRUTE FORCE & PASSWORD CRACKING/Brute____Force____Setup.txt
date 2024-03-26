@@ -1,0 +1,18 @@
+
+-------- Installation starts from here ---------
+download extension foxyrpoxy
+
+--- foxyproxy > options > proxies > add > title (alvi) > hostname (127.0.0.1) > port (8080)
+
+--- foxyrpoxy > alvi (click) > mozila > http://burp > 
+--- hamburger > settings >seach certificate > view certificates > import 
+
+
+============= To change the font size ============= 
+--- setting > userinterface > inspector and message editor > change font
+
+--- setting > userinterface > display > change font
+
+
+Go to tp left then seach burpsuite --> in kali
+In local pc download burpsuite
