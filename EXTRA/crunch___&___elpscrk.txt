@@ -1,0 +1,16 @@
+======== crunch ==========
+
+- crunch 3 4 alvi12 > nisha.txt
+
+======== elpscrk ==========
+
+- git clone https://github.com/D4Vinci/elpscrk
+- cd elpscrk
+- pip3 install -r requirements.txt
+- ls 
+- ls -la
+- chmod +x elpscrk.py
+- python3 elpscrk.py
+
+- python3 elpscrk.py --help
+- python3 elpscrk.py -c -l 2 --min 5 --max 6
