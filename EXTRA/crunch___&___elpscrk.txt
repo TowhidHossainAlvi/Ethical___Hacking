@@ -1,0 +1,18 @@
+======== crunch ==========
+
+- crunch 3 4 alvi12345 > nisha.txt [here 3 is minimum number of words and 4 is maximum number of words]
+
+======== elpscrk ==========
+
+---- installation ---------
+ 
+- git clone https://github.com/D4Vinci/elpscrk
+- cd elpscrk
+- pip3 install -r requirements.txt
+- ls 
+- ls -la  (permission checking)
+- chmod +x elpscrk.py  (giving permission)
+- python3 elpscrk.py
+
+- python3 elpscrk.py --help
+- python3 elpscrk.py -c -l 2 --min 5 --max 6
